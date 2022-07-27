@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Source+Sans+Pro:wght@900&display=swap");
+* {
+    margin:0;
+    text-decoration: none;
+}
+html,
+body {
+    background-color: black;
+    display: grid;
+    place-items:center;
+    height: 100vh;
+}
+.wrapper {
+    display:grid;
+    place-items: center;
+    text-align: center
+}
+
+h1 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 4em;
+    letter-spacing: -0.04em;
+    color:white;
+    padding-bottom: -10px;
+}
+h2 {
+    font-family:"Source Sans Pro", sans-serif;
+    font-size: 1.5em;
+    color: white;
+}
+.container {
+    display: grid;
+    place-items: center;
+}
+.profile-picture {
+    border-radius:50%;
+    border: 5px solid white;
+}
+.about {
+    margin: 15px 0;
+    color: white;
+}
+.divider {
+  color: white;
+}
+
+p {
+    font-size: 20px;
+    color: rgb(4, 59, 179);
+    font-family: "Comfortaa", cursiva;    
+}
+.icon {
+    color:white;
+    padding:15px;
+    border-radius:50%;
+}
+.icon:hover {
+    cursor:pointer;
+    background-color: rgb(127, 35, 35);
+}
+section {
+    display: block;
+}
